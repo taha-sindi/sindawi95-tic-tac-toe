@@ -1,12 +1,12 @@
-//=============variable================
+//=============variables================
 let player =[]; 
 let turnOf = "X"; 
 let result = turnOf;
-//=============variable================
+//=============variables================
 
 //===============click=================
-const box = function (event){
-result = turnOf;
+const box = function
+(event){ result = turnOf;
 $(event.target).off("click")
 $(event.target).text(turnOf)
 //===============click=================
@@ -16,11 +16,9 @@ if (turnOf === "X" ) {
 $(event.target).addClass('x-token');
 turnOf = "O";}
 //================XOXOX================
-else if( turnOf === "O") {
+else if ( turnOf === "O") {
 $(event.target).addClass('o-token');
 turnOf = "X";}
-player[$(event.target).attr('id')]
-= $(event.target).text()
 //===============turnOf================
 
 //==============function===============
@@ -46,7 +44,7 @@ $('.square').off('click') }}
 //=============diagonal\===============
 if (player[0] === player[4] && player[4] === player[8] && player[4]) {
 alert("Player " + result +  " Win!!!");
-$('.square').off('click') } 
+$('.square').off('click') }
 //=============diagonal\===============
 
 //=============diagonal/===============
@@ -56,14 +54,13 @@ $('.square').off('click') }
 //=============diagonal/===============
 
 //================Tie==================
-else if (player[0] && player[1] && player[2] && player[3] && player[4] && player[5] && player[6] && player[7] && player[8]) {
-alert("Tie!!!"); 
-$('.square').off('click')  }}
+else { alert("Tie!!!"); $('.square').off('click') }}
 //================Tie================== 
 
 //===============reset==================
 $('#reset').click(reset);
-function reset (){  player =[]; turnOf = "X"; 
+function reset (){
+player = []; turnOf = "X"; 
 $(".square").text("");
 $('.square').off('click') 
 $(".square").on("click", box) }

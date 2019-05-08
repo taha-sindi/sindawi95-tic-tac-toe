@@ -32,7 +32,6 @@ Build a dynamic game that allows two players to compete from the same computer
 Craft a README.md file that explains your app to the world Technical Requirements
 
 Your Tic Tac Toe app must:
-
 Render a game board in the browser
 Switch turns between X and O (or whichever markers you select)
 Visually display which side won if a player gets three in a row, or show a draw if neither player wins
@@ -45,7 +44,6 @@ Use semantic markup for HTML and CSS (adhere to best practices)
 Have well-formatted, and well-commented code
 
 User Stories
-
 As a user, I should be able to start a new tic tac toe game
 As a user, I should be able to click on a square to add X first and then O, and so on
 As a user, I should be shown a message after each turn for if I win, lose, tie or who's turn it is next
@@ -59,7 +57,6 @@ Keep track of multiple game rounds with a win, lose and tie counter
 Allow players to customize their tokens (X, O, name, picture, etc)
 Use LocalStorage to persist data locally to allow games to continue after page refresh or loss of internet connectivity
 Involve Audio in your game
-
 Create an AI opponent: teach JavaScript to play an unbeatable game against you
 Make your site fully responsive so that it is playable from a mobile phone
 Get inventive with your styling e.g. use hover effects or animations
@@ -86,13 +83,14 @@ Break the project down into different components (data, presentation, views, sty
 Use your Developer Tools (console.log, inspector, alert statements, etc) to debug and solve problems
 Some great tutorials for the Developer Tools can be found here
 Work through the lessons in class, ask questions and come to office hours when you need to. Think about adding relevant code to your Tic Tac Toe game each day, instead of, you know... procrastinating.
+
 Commit early, commit often. Don’t be afraid to break something because you can always go back in time to a previous version.
 Check out Tutorial and Documentation resources at home to better understand what you’ll be getting into.
 Don’t be afraid to write code that you know you will have to remove later. Create temporary elements (buttons, links, etc) that trigger events if real data is not available. For example, if you’re trying to figure out how to change some text when the game is over but you haven’t solved the win/lose game logic, you can create a button to simulate that until then.
+
 Create a repository on github.com for your project
 Clone it to the projects folder on your computer
 Add an HTML, CSS, and JS file to the folder
-
 Connect the CSS and JS file to your HTML file and test that they all work
 Build the most basic version of your Tic Tac Toe board in HTML and CSS (very little styling, just a first version)
 Write the pseudocode for the Tic Tac Toe logic as comments in your JS file
